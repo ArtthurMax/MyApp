@@ -13,4 +13,15 @@
    <author href="https://github.com/ArtthurMax/MyApp" email="artthurmaximo@uol.com.br">
 		Artthur Maximo Dias
    </author>
+   
+	<preference name="permissions" value="none" />
+	<preference name="orientation" value="portrait" />
+	<preference name="fullscreen" value="true" />
+	<preference name="android-minSdkVersion" value="16" />
+	<platform name="android" />
+   
+    <icon src="icon.png" />
+    <plugin name="cordova-plugin-splashscreen" />
+    <splash src="splash.png" />
+
 </widget>
